@@ -1,0 +1,9 @@
+*.mdb
+*.ldb
+*.mxd
+*.db
+*.lyr
+Current-Database/**
+GIS-Data/**
+*.adf
+

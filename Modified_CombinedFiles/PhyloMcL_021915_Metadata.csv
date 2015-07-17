@@ -1,0 +1,9 @@
+Metadata for PhyloMcL_021915.csv,,
+Description,Phylogenetic diversity data from Brian Anacker for McLaughlin 80 sites dataset. Calculation details in separate code.,
+,,
+ColumnNames,Description,Units_values
+Site,Eighty sites transect,1 to 80
+Year,Year,2000-2014
+mpd.obs.z,"	Mean pairwise distance score",
+pd.obs.z,"	Phylogenetic diversity score",
+SR,"	Species richnes",Number of species

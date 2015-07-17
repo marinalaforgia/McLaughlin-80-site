@@ -1,0 +1,265 @@
+"ID","Species_Name","Genus","Species","Family","Native/Exotic","Grass/Forb/Shrub","Annual/Perennial","Monocot/Dicot","Id_notes"
+2,"Lomatium dasycarpum","Lomatium","dasycarpum","Apiaceae","Native","Forb","Perennial","dicot","short-hairy/tomentose, pinnately dissected, segments 2-6 mm, threadlike to linear, few cauline lvs, corolla greenishwhito purple and tomentose"
+3,"Lomatium macrocarpum","Lomatium","macrocarpum","Apiaceae","Native","Forb","Perennial","dicot","herbage gray, tomentose pinnately or ternately pinnately dissected lvs, tomentose inflowecence, corolla white yellow or purple"
+4,"Lomatium marginatum","Lomatium","marginatum","Apiaceae","Native","Forb","Perennial","dicot","glabrous or scabrous, petiole sheathina nd purplish, threadlike segments of pinnate leaves, corolla yellow or reddish purple"
+5,"Lomatium utriculatum","Lomatium","utriculatum","Apiaceae","Native","Forb","Perennial","dicot","linear dissected leaf segments, sheathin petiole, yellow corolla, gla"
+6,"Sanicula bipinnata","Sanicula","bipinnata","Apiaceae","Native","Forb","Perennial","dicot","poison sannicle, lf ternate than 1-2 pinnate, this is the cilantro sannicle"
+7,"Sanicula crassicaulis","Sanicula","crassicaulis","Apiaceae","Native","Forb","Perennial","dicot","lobed leaves not dissected"
+8,"Torilis arvensis","Torilis","arvensis","Apiaceae","Exotic","Forb","Annual","dicot","peduncle>lf, umble open, not head like, plant erect"
+9,"Daucus pusillus","Daucus","pusillus","Apiaceae","Exotic","Forb","Annual","dicot",
+11,"Sanicula bipinnatifida","Sanicula","bipinnatifida","Apiaceae","Native","Forb","Perennial","dicot","purple sannicle, lvs 1-2 pinately dissected, can be pruplish, 7 or more coarsely toothed leaf divisions"
+12,"Torilis nodosa","Torilis","nodosa","Apiaceae","Exotic","Forb","Annual","dicot","peduncle<lf, umbel headlike and dense"
+13,"Perideridia kelloggii","Perideridia","kelloggii","Apiaceae","Native","Forb","Perennial","dicot",
+14,"Anthriscus caucalis","Anthriscus","caucalis","Apiaceae","Exotic","Forb","Annual","dicot",
+17,"Asclepias fascicularis","Asclepias","fascicularis","Asclepiadaceae","Native","Forb","Perennial","dicot",
+18,"Achillea millefolium","Achillea","millefolium","Asteraceae","Native","Forb","Perennial","dicot",
+19,"Achyrachaena mollis","Achyrachaena","mollis","Asteraceae","Native","Forb","Annual","dicot","lower lvs opp, upper alternate, hairy glandual inflorescence, soft hairy, ray and disk flws "
+20,"Agoseris heterophylla","Agoseris","heterophylla","Asteraceae","Native","Forb","Annual","dicot","milky sap, hairy oblanceolate lvs, can be toothed, lvs basal, single head of ligulate flowers"
+21,"Calycadenia pauciflora","Calycadenia","pauciflora","Asteraceae","Native","Forb","Annual","dicot",
+22,"Centaurea melitensis","Centaurea","melitensis","Asteraceae","Exotic","Forb","Annual","dicot",
+23,"Centaurea solstitialis","Centaurea","solstitialis","Asteraceae","Exotic","Forb","Annual","dicot",
+24,"Chaenactis glabriuscula","Chaenactis","glabriuscula","Asteraceae","Native","Forb","Annual","dicot","yellow pincushion, lvs<11 cm cobwebby, yellow serpentine comp"
+25,"Eriophyllum lanatum","Eriophyllum","lanatum","Asteraceae","Native","Forb","Perennial","dicot",
+26,"Filago californica","Filago","californica","Asteraceae","Native","Forb","Annual","dicot",
+27,"Filago gallica","Filago","gallica","Asteraceae","Exotic","Forb","Annual","dicot",
+28,"Grindelia camporum","Grindelia","camporum","Asteraceae","Native","Forb","Perennial","dicot",
+29,"Hemizonia congesta","Hemizonia","congesta","Asteraceae","Native","Forb","Annual","dicot",
+30,"Holocarpha virgata","Holocarpha","virgata","Asteraceae","Native","Forb","Annual","dicot",
+31,"Hypochaeris glabra","Hypochaeris","glabra","Asteraceae","Exotic","Forb","Annual","dicot",
+32,"Hypochaeris radicata","Hypochaeris","radicata","Asteraceae","Exotic","Forb","Perennial","dicot","bigger and hairier"
+33,"Lactuca serriola","Lactuca","serriola","Asteraceae","Exotic","Forb","Annual","dicot",
+34,"Lagophylla minor","Lagophylla","minor","Asteraceae","Native","Forb","Annual","dicot",
+35,"Lasthenia californica","Lasthenia","californica","Asteraceae","Native","Forb","Annual","dicot",
+36,"Layia platyglossa","Layia","platyglossa","Asteraceae","Native","Forb","Annual","dicot",
+37,"Madia elegans","Madia","elegans","Asteraceae","Native","Forb","Annual","dicot","disk flws staminate, ray flws conspicuous with maroon spotted base, lvs 2-20 cm, "
+39,"Micropus californicus","Micropus","californicus","Asteraceae","Native","Forb","Annual","dicot",
+40,"Microseris douglasii","Microseris","douglasii","Asteraceae","Native","Forb","Annual","dicot",
+41,"Rigiopappus leptocladus","Rigiopappus","leptocladus","Asteraceae","Native","Forb","Annual","dicot",
+42,"Senecio vulgaris","Senecio","vulgaris","Asteraceae","Exotic","Forb","Annual","dicot",
+43,"Sonchus asper","Sonchus","asper","Asteraceae","Exotic","Forb","Annual","dicot",
+44,"Sonchus oleraceus","Sonchus","oleraceus","Asteraceae","Exotic","Forb","Annual","dicot",
+45,"Uropappus lindleyi","Uropappus","lindleyi","Asteraceae","Native","Forb","Annual","dicot",
+46,"Wyethia glabra","Wyethia","glabra","Asteraceae","Native","Forb","Perennial","dicot",
+49,"Cirsium vulgare","Cirsium","vulgare","Asteraceae","Exotic","Forb","Perennial","dicot",
+50,"Layia septentrionalis","Layia","septentrionalis","Asteraceae","Native","Forb","Annual","dicot",
+51,"Agoseris grandiflora","Agoseris","grandiflora","Asteraceae","Native","Forb","Perennial","dicot","like heterophylla (milky sap, hairy oblanceolate lvs, can be toothed, lvs basal, single head of ligulate flowers) but huge and perennial"
+52,"Ancistrocarphus filagineus","Ancistrocarphus","filagineus","Asteraceae","Native","Forb","Annual","dicot","grey tomentose, cobwebby, several stems spreading from base, alternate sesslie lfs, entire lvs, disciform heads in leafy bracted groups"
+53,"Carduus pycnocephalus","Carduus","pycnocephalus","Asteraceae","Exotic","Forb","Annual","dicot",
+54,"Chamomilla suaveolens","Chamomilla","suaveolens","Asteraceae","Exotic","Forb","Annual","dicot",
+56,"Hesperevax sparsiflora","Hesperevax","sparsiflora","Asteraceae","Native","Forb","Annual","dicot",
+57,"Hieracium albiflorum","Hieracium","albiflorum","Asteraceae","Native","Forb","Perennial","dicot",
+59,"Lessingia ramulosa","Lessingia","ramulosa","Asteraceae","Native","Forb","Annual","dicot",
+60,"Madia exigua","Madia","exigua","Asteraceae","Native","Forb","Annual","dicot","only 1-2 disk flws, stems threadlike, lvs 1-4 cm, yellow anthers"
+61,"Madia gracilis","Madia","gracilis","Asteraceae","Native","Forb","Annual","dicot","disk flws fertile, ray flws inconspicuous, black anthers"
+63,"Senecio eurycephalus","Senecio","eurycephalus","Asteraceae","Native","Forb","Perennial","dicot",
+64,"Amsinckia menziesii","Amsinckia","menziesii","Boraginaceae","Native","Forb","Annual","dicot",
+65,"Cryptantha hispidula","Cryptantha","hispidula","Boraginaceae","Native","Forb","Annual","dicot",
+66,"Plagiobothrys nothofulvus","Plagiobothrys","nothofulvus","Boraginaceae","Native","Forb","Annual","dicot",
+69,"Pectocarya pusilla","Pectocarya","pusilla","Boraginaceae","Native","Forb","Annual","dicot",
+70,"Brassica nigra","Brassica","nigra","Brassicaceae","Exotic","Forb","Annual","dicot",
+71,"Athysanus pusillus","Athysanus","pusillus","Brassicaceae","Native","Forb","Annual","dicot",
+74,"Lepidium nitidum","Lepidium","nitidum","Brassicaceae","Native","Forb","Annual","dicot",
+75,"Streptanthus breweri","Streptanthus","breweri","Brassicaceae","Native","Forb","Annual","dicot",
+77,"Thysanocarpus curvipes","Thysanocarpus","curvipes","Brassicaceae","Native","Forb","Annual","dicot",
+79,"Capsella bursa-pastoris","Capsella","bursa-pastoris","Brassicaceae","Exotic","Forb","Annual","dicot",
+80,"Sisymbrium officinale","Sisymbrium","officinale","Brassicaceae","Exotic","Forb","Annual","dicot",
+82,"Cardamine oligosperma","Cardamine","oligosperma","Brassicaceae","Native","Forb","Annual","dicot",
+83,"Githopsis specularioides","Githopsis","specularioides","Campanulaceae","Native","Forb","Annual","dicot","2-40 cm tall, lf <2 cm, corolla <1.5 cm, blue, lobes=tube in length"
+85,"Minuartia californica","Minuartia","californica","Caryophyllaceae","Native","Forb","Annual","dicot","lvs 2-5 mm, much shorter than internodes"
+86,"Silene gallica","Silene","gallica","Caryophyllaceae","Exotic","Forb","Annual","dicot",
+87,"Stellaria media","Stellaria","media","Caryophyllaceae","Exotic","Forb","Annual","dicot",
+88,"Stellaria nitens","Stellaria","nitens","Caryophyllaceae","Native","Forb","Annual","dicot",
+89,"Minuartia douglasii","Minuartia","douglasii","Caryophyllaceae","Native","Forb","Annual","dicot","lvs5-40 mm, can have purple stems"
+90,"Velezia rigida","Velezia","rigida","Caryophyllaceae","Exotic","Forb","Annual","dicot",
+91,"Cerastium glomeratum","Cerastium","glomeratum","Caryophyllaceae","Exotic","Forb","Annual","dicot",
+92,"Petrorhagia prolifera","Petrorhagia","prolifera","Caryophyllaceae","Exotic","Forb","Annual","dicot",
+93,"Sagina apetala","Sagina","apetala","Caryophyllaceae","Native","Forb","Annual","dicot",
+94,"Atriplex triangularis","Atriplex","triangularis","Chenopodiaceae","Native","Forb","Annual","dicot",
+95,"Convolvulus arvensis","Convolvulus","arvensis","Convolvulaceae","Exotic","Forb","Annual","dicot",
+97,"Crassula connata","Crassula","connata","Crassulaceae","Native","Forb","Annual","dicot",
+100,"Cuscuta californica","Cuscuta","californica","Cuscutaceae","Native","Forb","Annual","dicot",
+104,"Eremocarpus setigerus","Eremocarpus","setigerus","Euphorbiaceae","Native","Forb","Annual","dicot",
+105,"Euphorbia crenulata","Euphorbia","crenulata","Euphorbiaceae","Native","Forb","Annual","dicot","alt leaves"
+106,"Astragalus breweri","Astragalus","breweri","Fabaceae","Native","Forb","Annual","dicot",
+107,"Astragalus gambelianus","Astragalus","gambelianus","Fabaceae","Native","Forb","Annual","dicot",
+108,"Lathyrus vestitus","Lathyrus","vestitus","Fabaceae","Native","Forb","Perennial","dicot",
+109,"Lotus humistratus","Lotus","humistratus","Fabaceae","Native","Forb","Annual","dicot",
+110,"Lotus wrangelianus","Lotus","wrangelianus","Fabaceae","Native","Forb","Annual","dicot",
+111,"Lupinus albifrons","Lupinus","albifrons","Fabaceae","Native","Shrub","Perennial","dicot",
+112,"Lupinus bicolor","Lupinus","bicolor","Fabaceae","Native","Forb","Annual","dicot",
+113,"Lupinus microcarpus","Lupinus","microcarpus","Fabaceae","Native","Forb","Annual","dicot",
+114,"Lupinus nanus","Lupinus","nanus","Fabaceae","Native","Forb","Annual","dicot",
+115,"Lupinus succulentus","Lupinus","succulentus","Fabaceae","Native","Forb","Annual","dicot",
+116,"Medicago polymorpha","Medicago","polymorpha","Fabaceae","Exotic","Forb","Annual","dicot",
+117,"Melilotus indica","Melilotus","indica","Fabaceae","Exotic","Forb","Annual","dicot",
+118,"Trifolium albopurpureum","Trifolium","albopurpureum","Fabaceae","Native","Forb","Annual","dicot","hairy, small, purple flws"
+119,"Trifolium bifidum","Trifolium","bifidum","Fabaceae","Native","Forb","Annual","dicot","notched tip, pink/purple flws or dull yellow"
+120,"Trifolium ciliolatum","Trifolium","ciliolatum","Fabaceae","Native","Forb","Annual","dicot","upper stipules bristle-tipped, serrate leaflets, pink-purple flws, infl head 7-20 mm wide"
+121,"Trifolium depauperatum","Trifolium","depauperatum","Fabaceae","Native","Forb","Annual","dicot","often tiny, glabrous, lower stipules oblong, upers bristle tipped, infl head .5-1.5 mm wide, pink-purple flws with white tips, banner inflated in fruit"
+122,"Trifolium dubium","Trifolium","dubium","Fabaceae","Exotic","Forb","Annual","dicot","sparsely puberelent, yellow-brown corolla, exotic, lives in disturbed places"
+123,"Trifolium fucatum","Trifolium","fucatum","Fabaceae","Native","Forb","Annual","dicot","robust, glabrous, looks like lab gloves inflated, canhave toothed leaflets, wide stipules"
+124,"Trifolium hirtum","Trifolium","hirtum","Fabaceae","Exotic","Forb","Annual","dicot","hairy rose clover"
+125,"Trifolium microdon","Trifolium","microdon","Fabaceae","Native","Forb","Annual","dicot","puberelent, wide stipules, lflets .5-1.5 cm, tip truncate or notched, white to pink corolla"
+126,"Trifolium willdenovii","Trifolium","willdenovii","Fabaceae","Native","Forb","Annual","dicot","super pokety leaves, glabrous, stipules bristle tipped, uppers sharply cut, purple and white tipped flws, can be serpentine"
+127,"Vicia villosa","Vicia","villosa","Fabaceae","Exotic","Forb","Annual","dicot",
+128,"Trifolium gracilentum","Trifolium","gracilentum","Fabaceae","Native","Forb","Annual","dicot","glabrous or slightly hairy, lflets 5-15 mm, infl=umbel, corolla pink 5-7 mm, sometimes serpentine"
+129,"Astragalus rattanii var. jepsonianus","Astragalus","rattanii var. jepsonianus","Fabaceae","Native","Forb","Annual","dicot",
+130,"Lotus micranthus","Lotus","micranthus","Fabaceae","Native","Forb","Annual","dicot",
+131,"Lotus purshianus","Lotus","purshianus","Fabaceae","Native","Forb","Annual","dicot","the hairy one that is not humistratus"
+133,"Thermopsis macrophylla","Thermopsis","macrophylla","Fabaceae","Native","Forb","Perennial","dicot",
+134,"Trifolium microcephalum","Trifolium","microcephalum","Fabaceae","Native","Forb","Annual","dicot","hairs soft, wavy, stipules often bristle tipped, toothed leaf margins, slightly notched tip, small infl, bur-like in fruit, corolla pink-lavender, can be serpentine"
+135,"Trifolium obtusiflorum","Trifolium","obtusiflorum","Fabaceae","Native","Forb","Annual","dicot","robust, glandular-hairy, sticky, stipules deeply cut, lftlets 2-4 cm, serrate with  1mm teeth, purple flws with white tips"
+136,"Trifolium variegatum","Trifolium","variegatum","Fabaceae","Native","Forb","Annual","dicot","glabrous, lower stipules entire, upper deeply cut"
+138,"Quercus durata","Quercus","durata","Fagaceae","Native","Shrub","Perennial","dicot",
+140,"Centaurium trichanthum","Centaurium","trichanthum","Gentianaceae","Native","Forb","Annual","dicot",
+141,"Erodium brachycarpum","Erodium","brachycarpum","Geraniaceae","Exotic","Forb","Annual","dicot",
+142,"Erodium cicutarium","Erodium","cicutarium","Geraniaceae","Exotic","Forb","Annual","dicot",
+144,"Geranium dissectum","Geranium","dissectum","Geraniaceae","Exotic","Forb","Annual","dicot",
+145,"Geranium molle","Geranium","molle","Geraniaceae","Exotic","Forb","Annual","dicot",
+146,"Erodium botrys","Erodium","botrys","Geraniaceae","Exotic","Forb","Annual","dicot",
+149,"Nemophila heterophylla","Nemophila","heterophylla","Hydrophyllaceae","Native","Forb","Annual","dicot",
+150,"Nemophila menziesii","Nemophila","menziesii","Hydrophyllaceae","Native","Forb","Annual","dicot",
+154,"Phacelia imbricata","Phacelia","imbricata","Hydrophyllaceae","Native","Forb","Perennial","dicot",
+156,"Sisyrinchium bellum","Sisyrinchium","bellum","Iridaceae","Native","Forb","Perennial","monocot",
+157,"Iris douglasiana","Iris","douglasiana","Iridaceae","Native","Forb","Perennial","monocot",
+159,"Allium fimbriatum","Allium","fimbriatum","Liliaceae","Native","Forb","Perennial","monocot","cylindric lf, dark red pruple to white 6-75 flowers per infl"
+160,"Allium serra","Allium","serra","Liliaceae","Native","Forb","Perennial","monocot","10-40 flws, pink to rose, papery in fruit, cylindric lvs"
+161,"Calochortus luteus","Calochortus","luteus","Liliaceae","Native","Forb","Perennial","monocot",
+163,"Calochortus superbus","Calochortus","superbus","Liliaceae","Native","Forb","Perennial","monocot",
+164,"Calochortus vestae","Calochortus","vestae","Liliaceae","Native","Forb","Perennial","monocot",
+165,"Allium falcifolium","Allium","falcifolium","Liliaceae","Native","Forb","Perennial","monocot","lvs sickle shaped, 10-30 flws, rose purple or dingy white"
+166,"Chlorogalum pomeridianum","Chlorogalum","pomeridianum","Liliaceae","Native","Forb","Perennial","monocot",
+167,"Dichelostemma capitatum","Dichelostemma","capitatum","Liliaceae","Native","Forb","Perennial","monocot",
+169,"Fritillaria pluriflora","Fritillaria","pluriflora","Liliaceae","Native","Forb","Perennial","monocot",
+171,"Triteleia laxa","Triteleia","laxa","Liliaceae","Native","Forb","Perennial","monocot",
+172,"Zigadenus fremontii","Zigadenus","fremontii","Liliaceae","Native","Forb","Perennial","monocot",
+173,"Brodiaea elegans","Brodiaea","elegans","Liliaceae","Native","Forb","Perennial","monocot",
+175,"Allium amplectens","Allium","amplectens","Liliaceae","Native","Forb","Perennial","monocot","white to pink flws, can be serpentine, cylindric lvs"
+176,"Hesperolinon californicum","Hesperolinon","californicum","Linaceae","Native","Forb","Annual","dicot",
+177,"Hesperolinon micranthum","Hesperolinon","micranthum","Linaceae","Native","Forb","Annual","dicot",
+178,"Hesperolinon disjunctum","Hesperolinon","disjunctum","Linaceae","Native","Forb","Annual","dicot",
+179,"Sidalcea diploscypha","Sidalcea","diploscypha","Malvaceae","Native","Forb","Annual","dicot",
+181,"Camissonia ovata","Camissonia","ovata","Onagraceae","Native","Forb","Perennial","dicot","fleshy with thick taproot"
+182,"Clarkia purpurea","Clarkia","purpurea","Onagraceae","Native","Forb","Annual","dicot",
+183,"Epilobium brachycarpum","Epilobium","brachycarpum","Onagraceae","Native","Forb","Annual","dicot",
+184,"Camissonia graciliflora","Camissonia","graciliflora","Onagraceae","Native","Forb","Annual","dicot","dense hairs, 1-10 cm leaves, narrow can be serrated, yellow flws"
+186,"Clarkia gracilis","Clarkia","gracilis","Onagraceae","Native","Forb","Annual","dicot",
+188,"Eschscholzia californica","Eschscholzia","californica","Papaveraceae","Native","Forb","Perennial","dicot",
+191,"Plantago erecta","Plantago","erecta","Plantaginaceae","Native","Forb","Annual","dicot",
+192,"Avena barbata","Avena","barbata","Poaceae","Exotic","Grass","Annual","monocot","forks as lemma tip bristly, with bristes>2mm"
+193,"Avena fatua","Avena","fatua","Poaceae","Exotic","Grass","Annual","monocot",
+194,"Briza minor","Briza","minor","Poaceae","Exotic","Grass","Annual","monocot",
+195,"Bromus diandrus","Bromus","diandrus","Poaceae","Exotic","Grass","Annual","monocot",
+196,"Bromus hordeaceus","Bromus","hordeaceus","Poaceae","Exotic","Grass","Annual","monocot",
+197,"Bromus madritensis","Bromus","madritensis","Poaceae","Exotic","Grass","Annual","monocot",
+199,"Bromus laevipes","Bromus","laevipes","Poaceae","Native","Grass","Perennial","monocot",
+200,"Elymus elymoides","Elymus","elymoides","Poaceae","Native","Grass","Perennial","monocot",
+201,"Gastridium ventricosum","Gastridium","ventricosum","Poaceae","Exotic","Grass","Annual","monocot",
+202,"Hordeum brachyantherum","Hordeum","brachyantherum","Poaceae","Native","Grass","Perennial","monocot",
+203,"Hordeum marinum","Hordeum","marinum","Poaceae","Exotic","Grass","Annual","monocot",
+204,"Hordeum murinum","Hordeum","murinum","Poaceae","Exotic","Grass","Annual","monocot",
+205,"Lolium multiflorum","Lolium","multiflorum","Poaceae","Exotic","Grass","Annual","monocot",
+206,"Melica californica","Melica","californica","Poaceae","Native","Grass","Perennial","monocot",
+207,"Melica torreyana","Melica","torreyana","Poaceae","Native","Grass","Perennial","monocot",
+208,"Nassella pulchra","Nassella","pulchra","Poaceae","Native","Grass","Perennial","monocot",
+210,"Phalaris paradoxa","Phalaris","paradoxa","Poaceae","Exotic","Grass","Annual","monocot",
+211,"Poa annua","Poa","annua","Poaceae","Exotic","Grass","Annual","monocot",
+212,"Poa bulbosa","Poa","bulbosa","Poaceae","Exotic","Grass","Annual","monocot",
+213,"Poa secunda","Poa","secunda","Poaceae","Native","Grass","Perennial","monocot",
+214,"Taeniatherum caput-medusae","Taeniatherum","caput-medusae","Poaceae","Exotic","Grass","Annual","monocot",
+216,"Vulpia microstachys","Vulpia","microstachys","Poaceae","Native","Grass","Annual","monocot",
+217,"Vulpia myuros","Vulpia","myuros","Poaceae","Exotic","Grass","Annual","monocot",
+218,"Aegilops triuncialis","Aegilops","triuncialis","Poaceae","Exotic","Grass","Annual","monocot",
+219,"Aira caryophyllea","Aira","caryophyllea","Poaceae","Exotic","Grass","Annual","monocot",
+221,"Bromus carinatus","Bromus","carinatus","Poaceae","Native","Grass","Perennial","monocot",
+222,"Cynosurus echinatus","Cynosurus","echinatus","Poaceae","Exotic","Grass","Annual","monocot",
+223,"Dactylis glomerata","Dactylis","glomerata","Poaceae","Exotic","Grass","Perennial","monocot",
+224,"Elytrigia repens","Elytrigia","repens","Poaceae","Exotic","Grass","Perennial","monocot",
+229,"Melica imperfecta","Melica","imperfecta","Poaceae","Native","Grass","Annual","monocot",
+231,"Polypogon monspeliensis","Polypogon","monspeliensis","Poaceae","Native","Grass","Annual","monocot",
+233,"Hordeum depressum","Hordeum","depressum","Poaceae","Native","Grass","Annual","monocot",
+234,"Gilia capitata","Gilia","capitata","Polemoniaceae","Native","Forb","Annual","dicot",
+235,"Gilia tricolor","Gilia","tricolor","Polemoniaceae","Native","Forb","Annual","dicot",
+236,"Linanthus bicolor","Linanthus","bicolor","Polemoniaceae","Native","Forb","Annual","dicot",
+237,"Linanthus dichotomus","Linanthus","dichotomus","Polemoniaceae","Native","Forb","Annual","dicot",
+238,"Navarretia jepsonii","Navarretia","jepsonii","Polemoniaceae","Native","Forb","Annual","dicot","stems reddish and white puberelent, lvs glabrous, serpentine, <15 cm, white throat purple lobed corolla"
+239,"Navarretia pubescens","Navarretia","pubescens","Polemoniaceae","Native","Forb","Annual","dicot","glandular plant, 14-33 cm, hairy glandualr inflo, deep blue corolla with purple throat"
+240,"Phlox gracilis","Phlox","gracilis","Polemoniaceae","Native","Forb","Annual","dicot",
+243,"Linanthus ciliatus","Linanthus","ciliatus","Polemoniaceae","Native","Forb","Annual","dicot",
+244,"Linanthus jepsonii","Linanthus","jepsonii","Polemoniaceae","Native","Forb","Annual","dicot",
+245,"Linanthus latisectus","Linanthus","latisectus","Polemoniaceae","Native","Forb","Annual","dicot",
+246,"Navarretia tagetina","Navarretia","tagetina","Polemoniaceae","Native","Forb","Annual","dicot","pale blue corolla"
+247,"Navarretia viscidula","Navarretia","viscidula","Polemoniaceae","Native","Forb","Annual","dicot","glandular plant, glandular corolla, leaf tips pointed up"
+248,"Chorizanthe membranacea","Chorizanthe","membranacea","Polygonaceae","Native","Forb","Annual","dicot",
+249,"Eriogonum nudum","Eriogonum","nudum","Polygonaceae","Native","Shrub","Perennial","dicot","perennial, blade 10-70 mm, oblanceolate to ovate, tomentose esp below"
+250,"Rumex crispus","Rumex","crispus","Polygonaceae","Exotic","Forb","Annual","dicot",
+251,"Eriogonum vimineum","Eriogonum","vimineum","Polygonaceae","Native","Forb","Annual","dicot","annual, blades 5-20 mm, ovate to round, tomentose below"
+253,"Eriogonum covilleanum","Eriogonum","""covilleanum""","Polygonaceae","Native","Forb","Annual","dicot","annual, 10-40 cm, blade 3-15 mm, round to reniform, tomentose esp below"
+254,"Chorizanthe polygonoides","Chorizanthe","polygonoides","Polygonaceae","Native","Forb","Annual","dicot",
+255,"Calandrinia ciliata","Calandrinia","ciliata","Portulacaceae","Native","Forb","Annual","dicot","red petals, fleshy, can be prostrate, 5 petals, linear to oblanceolate flat alt lvs"
+256,"Claytonia exigua","Claytonia","exigua","Portulacaceae","Native","Forb","Annual","dicot",
+258,"Claytonia parviflora","Claytonia","parviflora","Portulacaceae","Native","Forb","Annual","dicot",
+261,"Anagallis arvensis","Anagallis","arvensis","Primulaceae","Exotic","Forb","Annual","dicot","opp or whorled leaves, sessile lvs, flow in axils with pedicels"
+262,"Dodecatheon hendersonii","Dodecatheon","hendersonii","Primulaceae","Native","Forb","Perennial","dicot",
+264,"Delphinium variegatum","Delphinium","variegatum","Ranunculaceae","Native","Forb","Perennial","dicot",
+265,"Ranunculus californicus","Ranunculus","californicus","Ranunculaceae","Native","Forb","Perennial","dicot","7-22 petals usually"
+266,"Ranunculus occidentalis","Ranunculus","occidentalis","Ranunculaceae","Native","Forb","Perennial","dicot","5-6 petals"
+268,"Delphinium hesperium","Delphinium","hesperium","Ranunculaceae","Native","Forb","Perennial","dicot",
+274,"Aphanes occidentalis","Aphanes","occidentalis","Rosaceae","Native","Forb","Annual","dicot",
+275,"Cercocarpus betuloides","Cercocarpus","betuloides","Rosaceae","Native","Forb","Shrub","dicot",
+277,"Galium aparine","Galium","aparine","Rubiaceae","Native","Forb","Annual","dicot",
+278,"Galium porrigens","Galium","porrigens","Rubiaceae","Native","Shrub","Perennial","dicot",
+279,"Galium murale","Galium","murale","Rubiaceae","Exotic","Forb","Annual","dicot",
+280,"Lithophragma heterophyllum","Lithophragma","heterophyllum","Saxifragaceae","Native","Forb","Perennial","dicot","basal blade 3-5 lobed (lobes <1/2 deep)  with rounded teeth, 5-12 mm white  petals, which are obovate and 3 lobed, spiny seeds"
+281,"Castilleja densiflora","Castilleja","densiflora","Scrophulariaceae","Native","Forb","Annual","dicot",
+282,"Castilleja exserta","Castilleja","exserta","Scrophulariaceae","Native","Forb","Annual","dicot","purple owls' clover"
+283,"Collinsia heterophylla","Collinsia","heterophylla","Scrophulariaceae","Native","Forb","Annual","dicot",
+284,"Collinsia sparsiflora","Collinsia","sparsiflora","Scrophulariaceae","Native","Forb","Annual","dicot",
+286,"Mimulus guttatus","Mimulus","guttatus","Scrophulariaceae","Native","Forb","Annual","dicot",
+287,"Mimulus douglasii","Mimulus","douglasii","Scrophulariaceae","Native","Forb","Annual","dicot",
+288,"Triphysaria eriantha","Triphysaria","eriantha","Scrophulariaceae","Native","Forb","Annual","dicot",
+289,"Triphysaria versicolor","Triphysaria","versicolor ssp. faucibarbata","Scrophulariaceae","Native","Forb","Annual","dicot",
+291,"Castilleja attenuata","Castilleja","attenuata","Scrophulariaceae","Native","Forb","Annual","dicot","whitish with purple dots"
+293,"Bellardia trixago","Bellardia","trixago","Scrophulariaceae","Exotic","Forb","Annual","dicot",
+294,"Castilleja rubicundula","Castilleja","rubicundula","Scrophulariaceae","Native","Forb","Annual","dicot","cream sacks"
+295,"Mimulus androsaceus","Mimulus","androsaceus","Scrophulariaceae","Native","Forb","Annual","dicot",
+299,"Plectritis ciliosa","Plectritis","ciliosa","Valerianaceae","Native","Forb","Annual","dicot","lower corolla lip with red spots"
+301,"Viola douglasii","Viola","douglasii","Violaceae","Native","Forb","Perennial","dicot",
+307,"Hesperolinon sp.","Hesperolinon","sp.","Linaceae","Native","Forb","Annual","dicot",
+312,"Calochortus sp.","Calochortus","sp.","Liliaceae","Native","Forb","Perennial","monocolt",
+313,"Carex sp.","Carex","sp.","Cyperaceae","Native","Grass","Perennial","monocot",
+316,"Juncus sp.","Juncus","sp.","Juncaceae","Native","X","Perennial","monocot",
+320,"Allium sp.","Allium","sp.","Liliaceae","Native","Forb","Perennial","monocol",
+322,"Helianthella californica","Helianthella","californica","Asteraceae","Native","Forb","Perennial","dicot",
+323,"Trifolium sp.",,"X","Fabaceae",,"Forb","Annual","dicot",
+325,"Linanthus nanus","Linanthus","nanus","Polemoniaceae","Native","Forb","Annual","dicot",
+326,"Allophyllum gilioides","Allophyllum","gilioides","Polemoniaceae","Native","Forb","Annual","dicot",
+327,"Helianthus exilis","Helianthus","exilis","Asteraceae","Native","Forb","Annual","dicot",
+328,"Cryptantha flaccida","Cryptantha","flaccida","Boraginaceae","Native","Forb","Annual","Dicot",
+329,"Scutellaria siphocampyloides","Scutellaria","siphocampyloides","Lamiaceae","Native","Forb","Perennial","dicot",
+332,"Bromus tectorum","Bromus","tectorum","Poaceae","Exotic","Grass","Annual","monocot",
+333,"unk BluefloweringthingatStroups","blu","flow",,"Native","Forb","Annual","dicot",
+334,"Holodiscus discolor","Holodiscus","discolor","Rosaceae","Native","Shrub","Perennial","dicot",
+335,"Mystery star forb",,,,,,,,
+336,"Avena sp.","Avena","sp.","Poaceae","Exotic","Grass","Annual","monocot",
+337,"Cynosurus sp.","Cynosurus","sp.","Poaceae","Exotic","Grass","Annual","monocot",
+338,"Helianthella sp.","Helianthella","sp.","Asteraceae","Native","Forb","Perennial","dicot",
+339,"Asclepias sp.","Asclepias","sp","Asclepiadaceae","Native","Forb","Perennial","dicot",
+340,"Quercus douglasii","Quercus","douglasii","Fagaceae","Native","Tree","Perennial","dicot",
+341,"Rumex sp.","Rumex","sp","Polygonaceae","Exotic","Forb","Perennial","dicot",
+342,"Triteleia sp.","Triteleia","sp","Liliaceae","Native","Forb","Perennial","monocot",
+343,"Vulpia octoflora","Vulpia","octoflora","Poaceae","Native","Grass","Annual","monocot",
+344,"unk #4 fleshy",,,,,,,,
+345,"unk bulb",,,,,,,,
+346,"unk gall plant",,,,,,,,
+347,"unk lilly",,,,,,,,
+348,"unk pink tip #3",,,,,,,,
+349,"unk silene gallica",,,,,,,,
+350,"unk white",,,,,,,,
+351,"unk whorled subwhorled",,,,,,,,
+352,"Elymus glaucus","Elymus","glaucus","Poaceae","Native","Grass","Perennial","monocot",
+353,"Eriogonum sp.","Eriogonum","sp.","Polygonaceae","Native","Forb","Perennial","dicot",
+354,"Minuartia sp.","Minuartia","sp.","Caryophyllaceae","Native","Forb","Annual","dicot",
+355,"Quercus lobata","Quercus","lobata","Fagaceae","Native","Shrub","Perennial","dicot",
+356,"Salvia columbariae","Salvia","columbariae","Lamiaceae","Native","Shrub","Perennial","dicot",
+357,"Stephanomeria sp.","Stephanomeria","sp.","Asteraceae","Native","Forb","Annual","dicot",

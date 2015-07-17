@@ -1,0 +1,9 @@
+SpeciesList_80Sites_Corrections.csv Metadata,,
+Description,Species list matched with SS_2000on. Notes on changes to original names noted.,
+Fields,Description,Units and range
+ID,Database ID ,774-1161
+Eighty Sites Species,Name of species from SS_2000on list (pre-2012 species list),"Text, varies"
+Number of Plot Species Lists Present In,"In 2012, the number of plots the name was present in",
+Merged Species,Merged species notes,"Text, varies"
+Proposed Action,Action taken for species name - from removal to changes to merges,"Text, varies"
+Replacement,Species name that replaces original species name (follows Jepson 1993),"Genus species unless species unknown in which case follows format of ""Genus sp."" "

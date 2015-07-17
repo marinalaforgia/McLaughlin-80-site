@@ -1,0 +1,17 @@
+Name,What
+Grazing Record,List of plots grazed (ended 2001) for sites 1 - 100.
+Endemic Score,List of serpentine endemic status based on Safford
+Core_Community_Table,"Species list with presence 2000 - 2005 or cover 2006 - 2014 by site and quadrat with ID notes. Database is similar to SS_2000on, but with data cleaned with table SpeciesList_80Sites_Corrections"
+SpeciesList_80Sites_Corrections,Species list matched with SS_2000on. Notes on changes to original names noted (changes made starting in 2012)
+ConfusedSpeciesGroups,Supplementary information on species that are easily confused.
+Disturbance Record,"Site, Disturbance description, and year for non-fire/grazing disturbances"
+Transect Reading Notes,Notes on sites where the transect direction might be confusing or is opposite normal (tag = quad 1)
+Disturbance Record,Destructive disturbance - such as goatgrass treatment.
+Burn Records,Year and season (if known) of burn
+Basic Abiotic Data,"Serpentine soil, aspect, slope etc."
+Soil_landscape,Soil analyses for 100 sites - includes sites beyond 1- 80 main sites
+Species,"Species names, numbers, exotic, lifeform, etc"
+SS_2000on,"Data from 2000-2012. Presence/absence through 2005, cover 2006 - 2012."
+Biomass_1998_2000_2001,"Biomass from 1998, 2000, and 2011"
+Locations_GPS,Location data in lat/long and UTM format for the sites and serpentine/non-serpentine status
+SS_thru2006,Data from 1998 - 2006. Includeds presence absence for 1998/1999.

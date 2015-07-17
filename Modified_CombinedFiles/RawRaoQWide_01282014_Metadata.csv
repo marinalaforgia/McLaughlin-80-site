@@ -1,0 +1,6 @@
+Metadata for RawRaoQWide_01282014.csv,,
+Description,Trait functional dispersion calculated with the R package FD for sites with > 80 percent trait coverage. See code for details.,
+,,
+ColumnNames,Description,Units_values
+Year,Year with cover data McLaughlin dataset 2006 - 2014,2006 - 2014
+Remaining columns represent eighty sites transect ID,RaoQ dispersion value; see package FD for details,1 to 80

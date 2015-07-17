@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1436731741269.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BF612E35",
+    "lastKnownWriteTime" : 5292976843906638626,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "sb.by.year.sum",
+        "contentUrl" : "content?title=sb.by.year.sum&file=019e3aaf8ce04e22b4e0440519ae01ae.htm",
+        "displayedObservations" : 385,
+        "displayedVariables" : 5,
+        "totalObservations" : 385,
+        "variables" : 5
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,91 @@
+##Code for calculating functional dispersion and CWM traits - modified from code obtained from Marko
+
+setwd("C:/Documents and Settings/bmgoing/Desktop/R")
+library(FD)
+
+
+
+##Load two files:
+  ##1)raw trait data (traits in columns, species in rows.  No title for species column, MUST BE txt)
+  ##2)species composition data (species in columns, plots in rows.  No title for plot columns, MUST BE txt)
+  
+##Species names must be identical and in the same order in both files
+##use raw trait values, do not standardize, code will standardize
+traits=read.table("traits_raw.txt")
+head(traits)
+
+
+attach(traits)
+names(traits)
+
+
+
+abundances=read.table("statewide_comp.txt")
+head(abundances)
+
+
+attach(abundances)
+names(abundances)
+
+
+
+##check to make sure same number of species in both files CRITICAL##
+#T=number of traits
+T<-dim(traits)[2]
+
+
+t2<-dim(traits)[1]
+t2
+#C= number of communities
+C<-dim(abundances)[1]
+c2<-dim(abundances)[2]
+c2
+##check coherence of number of species in 'traits' and 'abundances' if (dim(abundances)[2]!=dim(traits)[1] stop ('error: different number of species in 'traits' and 'abundances' matrices')
+##Species names must be the same in both files
+
+##Run FD code
+res=dbFD(traits, abundances, calc.FRic=FALSE, corr=c("lingoes"))
+
+##write table with FD metrics
+write.table(res,file="FD_res2.csv",row.names=TRUE,col.names=TRUE,sep=",")
+
+
+##Run code for individual traits##
+##Important note when using only one trait
+##FRic was measured as the range, NOT as the convex hull volume.
+##FDiv: Cannot be computed when 'traits' contains one single continuous trait or dimension.
+
+##use raw trait values, do not standardize, code will standardize
+traits2=read.table("height.txt")
+
+
+
+
+
+head(traits2)
+attach(traits2)
+names(traits2)
+
+##Check to make sure same number of species in both files - Critical!
+#T = number of traits
+T<-dim(traits2)[2]
+t2<-dim(traits2)[1]
+t2
+
+#C = number of communities
+C<-dim(abundances)[1]
+c2<-dim(abundances)[2]
+c2
+
+##Check coherence of number of species in 'traits2' and 'abundances', see note above
+##Species must be in the same order in both files
+
+##Run FD code
+res=dbFD(traits2,abundances)
+
+##write table with FD metrics
+##rename file for each individual trait
+write.table(res,file="FD_res_height.csv",row.names=TRUE, col.names=TRUE, sep=",")
+
+
+

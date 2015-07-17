@@ -1,0 +1,224 @@
+ID	Year	Site	Quadrat	Species_Name	Cover	Notes
+8438	2000	9	1	Carex sp.	NA	
+9599	2000	9	2	Carex sp.	NA	
+8761	2000	29	1	Hesperolinon sp.	NA	orig rec. as hesp sp.
+9895	2000	29	2	Hesperolinon sp.	NA	orig rec. as hesp sp.
+10962	2000	29	3	Hesperolinon sp.	NA	orig rec. as hesp sp.
+12061	2000	29	4	Hesperolinon sp.	NA	orig rec. as hesp sp.
+13108	2000	29	5	Hesperolinon sp.	NA	orig rec. as hesp sp.
+14292	2001	42	1	Juncus sp.	NA	
+15263	2001	42	2	Juncus sp.	NA	
+16260	2001	42	3	Juncus sp.	NA	
+14300	2001	43	1	Juncus sp.	NA	
+15274	2001	43	2	Juncus sp.	NA	
+16269	2001	43	3	Juncus sp.	NA	
+17277	2001	43	4	Juncus sp.	NA	
+18273	2001	43	5	Juncus sp.	NA	
+18847	2002	9	1	Juncus sp.	NA	
+20071	2002	9	2	Juncus sp.	NA	
+18905	2002	12	1	Allium sp.	NA	
+21506	2002	24	3	Allium sp.	NA	
+19167	2002	29	1	Allium sp.	NA	
+24021	2002	29	5	Allium sp.	NA	
+27551	2003	24	3	Allium sp.	NA	
+25218	2003	29	1	Trifolium sp.	NA	
+26432	2003	29	2	Allium sp.	NA	
+27928	2003	50	3	Trifolium sp.	NA	
+27976	2003	52	3	Linanthus nanus	NA	
+30334	2003	52	5	Linanthus nanus	NA	
+31348	2004	9	1	Juncus sp.	NA	
+31638	2004	12	5	Allium sp.	NA	
+31645	2004	12	5	Hesperolinon sp.	NA	
+31680	2004	13	2	Hesperolinon sp.	NA	
+33927	2004	45	2	Hesperolinon sp.	NA	
+34446	2004	52	3	Linanthus nanus	NA	
+34480	2004	52	5	Linanthus nanus	NA	
+35659	2004	70	1	Calochortus sp.	NA	
+35671	2004	70	2	Calochortus sp.	NA	
+35685	2004	70	3	Calochortus sp.	NA	
+35974	2004	75	5	Juncus sp.	NA	
+36854	2005	3	4	unk BluefloweringthingatStroups	NA	
+39396	2005	9	1	Juncus sp.	NA	
+39167	2005	12	1	Hesperolinon sp.	NA	
+39168	2005	12	2	Hesperolinon sp.	NA	
+39172	2005	12	5	Hesperolinon sp.	NA	
+39169	2005	13	2	Hesperolinon sp.	NA	
+37940	2005	23	2	Trifolium sp.	NA	"clover #2"
+36428	2005	24	3	Allium sp.	NA	
+36429	2005	29	5	Allium sp.	NA	
+39170	2005	45	2	Hesperolinon sp.	NA	
+39171	2005	55	2	Hesperolinon sp.	NA	
+43024	2006	9	1	Juncus sp.	8	
+43336	2006	12	1	Hesperolinon sp.	12	
+43436	2006	13	2	Hesperolinon sp.	0.5	
+43532	2006	14	4	Hesperolinon sp.	0.5	
+43533	2006	14	5	Hesperolinon sp.	0.1	
+44237	2006	23	2	Trifolium sp.	4	clover #2
+44694	2006	29	5	Allium sp.	5	white multiflowered, maybe amplectabns?
+45238	2006	36	2	Mystery star forb	0.1	linear opp leaves, 5 sepals, flowers in axils
+48735	2007	5	3	Triteleia sp.	0.3	nfsarah deal with this
+48744	2007	5	4	Triteleia sp.	0.1	nfsarah deal with this
+48758	2007	5	5	Triteleia sp.	0.1	nfsarah deal with this
+49007	2007	9	1	Juncus sp.	5	
+49247	2007	12	1	Hesperolinon sp.	0.1	
+49268	2007	12	2	Hesperolinon sp.	0.1	
+49330	2007	12	5	Hesperolinon sp.	2	
+49362	2007	13	2	Hesperolinon sp.	0.4	
+49487	2007	14	4	Hesperolinon sp.	0.4	
+49503	2007	14	5	Hesperolinon sp.	0.1	
+50092	2007	24	3	Allium sp.	0.1	
+50125	2007	24	5	Asclepias sp.	0.1	
+51234	2007	44	4	unk whorled subwhorled	1	
+51269	2007	45	2	Hesperolinon sp.	0.2	
+53519	2008	6	5	unk gall plant	0.1	
+53650	2008	9	1	Allium sp.	0.1	
+53653	2008	9	1	Juncus sp.	1	
+53832	2008	12	1	Hesperolinon sp.	3	
+53888	2008	12	4	unk silene gallica	0.1	
+53897	2008	12	5	Hesperolinon sp.	3	
+53921	2008	13	2	Hesperolinon sp.	0.2	
+54027	2008	14	4	Hesperolinon sp.	1	
+54043	2008	14	5	Hesperolinon sp.	1	
+54168	2008	16	5	unk white	0.5	
+54202	2008	17	4	unk pink tip #3	0.1	
+54209	2008	17	5	unk pink tip #3	0.1	
+54221	2008	18	1	unk #4 fleshy	3	
+54690	2008	27	3	unk lilly	0.1	
+54699	2008	27	4	unk lilly	0.1	
+54771	2008	28	5	Avena sp.	0.1	
+54836	2008	29	5	Allium sp.	0.2	
+54965	2008	31	3	Avena sp.	20	id correct?
+55127	2008	33	5	Allium sp.	0.1	
+55597	2008	45	2	Hesperolinon sp.	3	
+55654	2008	46	1	Hesperolinon sp.	2	
+56609	2008	63	2	unk bulb	3	
+57624	2009	3	5	Calochortus sp.	0.5	
+58062	2009	9	1	Juncus sp.	2	
+58308	2009	12	1	Hesperolinon sp.	2	
+58330	2009	12	2	Hesperolinon sp.	0.1	
+58386	2009	12	5	Hesperolinon sp.	4	
+58395	2009	12	5	unk silene gallica	0.1	
+59342	2009	26	2	Eriogonum sp.	0.1	
+59525	2009	29	1	Trifolium sp.	0.1	
+59540	2009	29	2	unk purple stems	0.1	
+60330	2009	41	2	Unk mustard	0.1	
+60661	2009	46	5	Calochortus sp.	0.1	
+61666	2009	60	4	Unknown grass	0.3	
+62102	2009	68	2	unk grass2 (hairy)	4	
+62125	2009	68	4	unk grass1	1	
+62700	2009	77	1	unk bulb	0.1	
+62723	2009	77	3	unk bulb	1	
+62742	2009	77	4	unk bulb	1	
+62759	2009	77	5	unk bulb	0.4	
+62778	2009	78	1	unk bush	0.1	
+62923	2009	80	4	unk bulb	0.1	
+63121	2010	12	1	Hesperolinon sp.	0.1	
+64318	2010	13	2	Hesperolinon sp.	0.2	
+64328	2010	13	2	Unknown seedling	0.4	
+65513	2010	13	3	Hesperolinon sp.	0.1	
+63165	2010	14	1	Unknown Aster	0.1	
+64346	2010	14	2	Unknown Filago	8	
+66686	2010	14	4	Hesperolinon sp.	0.2	
+66696	2010	14	4	Unknown Filago	0.4	
+67829	2010	14	5	Hesperolinon sp.	1	
+67834	2010	14	5	Unknown Filago	0.3	
+66710	2010	15	4	Unknown opposite leaves	0.1	
+63199	2010	16	1	unk white	1	
+63200	2010	16	1	Trifolium	3	
+65563	2010	16	3	unk white	2	
+66726	2010	16	4	unk white	2	
+63214	2010	17	1	Unknown seedling	0.1	
+63281	2010	22	1	Cenaurea seedling?	0.1	
+64450	2010	22	2	Cenaurea seedling?	0.3	
+67950	2010	22	5	Unknown Aster	0.1	
+63355	2010	26	1	Unknown seedling	0.1	
+65743	2010	29	3	Taeniatherum 	0.2	
+65745	2010	29	3	Unknown seedling	0.1	
+63417	2010	30	1	Unknown Woody seedling	1	
+68186	2010	39	5	Sonchus?	0.1	
+68231	2010	42	5	Unknown tiny opp lvs	0.1	
+64798	2010	45	2	Hesperolinon sp.	0.3	
+67123	2010	45	4	Trifolium sp?	0.1	
+63625	2010	46	1	Hespirolinon ?	0.1	
+67195	2010	50	4	Unknown Trifolium	7	
+63711	2010	51	1	Unknown brodiaea	0.1	
+64959	2010	55	2	Unknown Calochortus	0.1	
+66134	2010	56	3	Unknown white deeply cut 	0.1	
+67285	2010	56	4	Unknown white deeply cut 	0.2	
+68445	2010	56	5	Unknown white deeply cut 	0.1	
+63843	2010	60	1	Unk. red stem, alternate lvs	0.1	
+65028	2010	60	2	Unk. red stem, alternate lvs	0.1	
+65029	2010	60	2	Unk. hairy stem serated lvs aster	0.1	
+66187	2010	60	3	Unk. hairy stem serated lvs aster	0.5	
+67341	2010	60	4	Unk. hairy stem serated lvs aster	0.2	
+63859	2010	61	1	Unknown seedling 	0.1	
+63860	2010	61	1	Unknown Liliaceae	0.5	
+68524	2010	61	5	Unknown Liliaceae	0.1	
+65062	2010	63	2	Unknown Calochortus	0.1	
+66229	2010	63	3	Unknown Calochortus	0.1	
+68553	2010	63	5	Unknown Calochortus	0.1	
+65083	2010	64	2	Unknown Filago	0.8	
+68594	2010	67	5	Unknown opp lvs white flowers	0.1	
+65130	2010	68	2	unk grass2 (hairy)	2	
+65131	2010	68	2	Unknown from site 71	0.1	
+67443	2010	68	4	unk grass1	4	
+66310	2010	70	3	Unknown Lupinus	0.2	
+66311	2010	70	3	Unknown Liliaceae	0.1	
+66312	2010	70	3	Unknown Liliaceae	0.2	
+68632	2010	70	5	Unknown grass	0.1	
+68645	2010	71	5	Unknown deeply cut, hairy	0.1	
+65261	2010	76	2	Unknown woody seedling 	0.1	
+67609	2010	79	4	Unknown seedling	0.1	
+73278	2011	5	5	Allium sp.	0.1	
+71126	2011	7	3	Allium sp.	0.4	
+73318	2011	7	5	Juncus sp.	0.5	
+68915	2011	8	1	Bare 	0.3	
+70028	2011	8	2	Bare 	1.5	
+71152	2011	8	3	Bare 	3	
+72271	2011	8	4	Bare 	3.5	
+68917	2011	9	1	Allium sp?	1	
+70030	2011	9	2	Allium sp?	0.4	
+71154	2011	9	3	Allium sp?	0.1	
+72272	2011	9	4	Allium sp?	0.5	
+68978	2011	12	1	Hesperolinon sp.	0.2	
+70096	2011	12	2	Hesperolinon sp.	0.1	
+71214	2011	12	3	Hesperolinon sp.	0.1	
+73386	2011	12	5	Hesperolinon sp.	0.3	
+70115	2011	13	2	Hesperolinon sp.	0.5	
+71236	2011	13	3	Hesperolinon sp.	0.1	
+73506	2011	20	5	Quercus (spelling?)	0.1	
+69260	2011	29	1	Trifolium sp.	1.3	
+69518	2011	50	1	Bare 	3	
+70647	2011	50	2	Bare 	2	
+72829	2011	50	4	Allophyllum gilioides????	0.4	
+72845	2011	50	4	Trifolium sp.	0.1	
+72848	2011	50	4	Bare 	1	
+73887	2011	50	5	Allophyllum gilioides????	0.1	
+73899	2011	50	5	Bare 	2	
+70751	2011	56	2	Rock 	1	
+71853	2011	56	3	Rock 	2	
+75170	2012	3	2	Calochortus sp.	0.1	
+76977	2012	3	4	Calochortus sp.	0.3	
+75212	2012	5	2	Unknown grass	3	
+76099	2012	7	3	Allium sp.	0.2	
+77024	2012	7	4	Allium sp.	0.1	
+77892	2012	7	5	Juncus sp.	0.1	
+74357	2012	9	1	Juncus sp.	5	
+74379	2012	10	1	Hesperolinon sp.	0.3	
+76145	2012	10	3	Hesperolinon sp.	0.2	
+77945	2012	10	5	Hesperolinon sp.	0.1	
+74402	2012	11	1	Epilobium spp. 	0.1	
+76198	2012	13	3	Unknown seedling	0.1	
+74605	2012	25	1	Unknown branched lily	0.3	
+77293	2012	27	4	unk lilly	0.1	
+74646	2012	29	1	Trifolium sp.	0.1	
+77319	2012	29	4	Unknown herb	0.1	
+78299	2012	41	5	Unk mustard	0.1	
+78300	2012	41	5	Unk mustard	0.1	
+76570	2012	46	3	Calochortus sp.	0.1	
+78341	2012	46	5	Calochortus sp.	0.1	
+78797	2013	9	1	Juncus sp.	10	not in flower
+79763	2013	9	2	Juncus sp.	0.1	not in flower
+83097	2013	42	5	Unknown herb	0.1	
+83123	2013	44	5	Unknown herb	0.2	Could be young Senecio eurycephalus greyish rosette
+83235	2013	56	5	Centaurea spp.	0.1	

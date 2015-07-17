@@ -1,0 +1,22 @@
+Metadata for McL_80SitesSpeciesTrais_012615,,
+Description,Species trait data for McLaughlin dataset,
+,,
+ColumnNames,Description,Units_values
+Species_Name,Genus species,Jepson 1993
+HeightS,Height; related to 2010 trait dataset. On serpentine.,cm; mean of 10 measurements
+SLAS,Specific leaf area; related to 2010 trait dataset.  On serpentine.,area cm2 / g
+LWCS,Leaf water content; related to 2010 trait dataset.  On serpentine.,(fresh weight - dry weight) / fresh weight
+CNS,Leaf Carbon: Nitrogen ration; related to 2010 trait dataset.  On serpentine.,leaf carbon to nitrogen ratio
+PerNS,Percent Nitrogen; related to 2010 trait dataset.  On serpentine.,leaf nitrogen content; percent
+HeightNS,Height; related to 2010 trait dataset. On non-serpentine.,cm; mean of 10 measurements
+SLANS,Specific leaf area; related to 2010 trait dataset.  On non-serpentine.,area cm2 / g
+LWCNS,Leaf water content; related to 2010 trait dataset.  On non-serpentine.,(fresh weight - dry weight) / fresh weight
+CNNS,Leaf Carbon: Nitrogen ration; related to 2010 trait dataset.  On non-serpentine.,leaf carbon to nitrogen ratio
+PerNNS,Percent Nitrogen; related to 2010 trait dataset.  On non-serpentine.,leaf nitrogen content; percent
+Genus,Genus,Jepson 1993
+Species,Species,Jepson 1993
+Family,Plant family,Jepson 1993
+Native.Exotic,native status; based on PLANTS USDA data downloaded fall 2014; supplemented by data from the CalFlora database,Native or Exotic
+Grass.Forb.Shrub,growth form; based on PLANTS USDA data downloaded fall 2014; supplemented by data from the CalFlora database,"Grass; Forb; Shrub; Tree. Juncaceae and Cyperaceae (graminoids) included as ""Grass"""
+Annual.Perennial,lifespan; based on PLANTS USDA data downloaded fall 2014; supplemented by data from the CalFlora database,
+Monocot.Dicot,monocot or dicot; based on PLANTS USDA data downloaded fall 2014; supplemented by data from the CalFlora database,

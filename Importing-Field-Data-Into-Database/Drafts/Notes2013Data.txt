@@ -1,0 +1,1 @@
+Manually corrected species list as per Species List Corrections file in database (i.e. merged species within Lactuca serriola)
