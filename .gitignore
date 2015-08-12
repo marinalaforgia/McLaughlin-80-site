@@ -7,3 +7,4 @@ Current-Database/**
 GIS-Data/**
 *.adf
 
+.Rproj.user

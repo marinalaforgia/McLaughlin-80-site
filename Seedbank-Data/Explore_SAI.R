@@ -33,7 +33,13 @@ sbank <- read.csv("Seedbank_counts.csv")
 # seedlings per plot
 ggplot(sbank, aes(x = Grass.Forb.Shrub, y = Count.14, col = Grass.Forb.Shrub)) + 
   geom_point()
-test <- reshape(sbank, idvar = c("site","Serpentine","Species_Name","Grass.Forb.Shrub","SAI"), varying = c("Count.12", "Count.14"), timevar = "Year", direction = "long")
+
+colnames(sbank)[5] <- 2012
+colnames(sbank)[6] <- 2014
+
+sbank.short <- sbank[,1:6] # there seems to be an NA generated somewhere but I cant figure out wehre
+test <- reshape(sbank.short, idvar = c("site","Serpentine","Species_Name","Grass.Forb.Shrub"), varying = names(sbank[,5:6]), v.name = "Count", times = c(2012,2014), timevar = "Year", direction = "long")
+
 # Comparing SAI between burned and unburned plots
 head(burn)
 unique(burn$Season_Year)
@@ -46,3 +52,19 @@ burn1999 <- filter(burn, Season_Year == 1999)
 #####
 # Shifting Time windows
 ####
+
+###
+# Fun with bayes
+###
+library(rethinking)
+m1stan <- map2stan(
+  alist(
+    Count ~ dnorm(mu, sigma),
+    mu <- a + s*Serpentine + y*Year + f*Grass.Forb.Shrub,
+    a
+    s
+    y
+    f
+    sigma
+  ), data = sbank.short
+)
