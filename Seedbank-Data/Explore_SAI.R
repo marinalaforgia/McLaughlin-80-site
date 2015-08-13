@@ -1,7 +1,7 @@
 ## Script for exploring correlations with seedbank abundance
-# Things to explore
-# 1. Compare frequency data above/below ground for study species
-# 2. Correlate SAI with 
+
+# 1. Load necessary packages and files
+# 2. SAI correlations
     # a. Burned in 1999 and burned in 2000
     # b. grazed and ungrazed
     # c. serpentine and nonserpentine
@@ -11,18 +11,22 @@
         # - SLA
         # - ??
     # g. year to year variation in frequency
+# 3. Compare frequency data above/below ground for study species
 # 3. See which year or sequence of years best predicts abundance in seedbank for different life forms
 # 4. See what year "types" best predicts abundance in seedbank for different life forms
 
 ## Read in necessary files and packages
 library(dplyr)
 library(ggplot2)
-SAI <- read.csv("SAI.csv")
-cover <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files/Core_Community_Data2014.csv")
+SAI.sp.S <- read.csv("SAI-by-species-S.csv")
+SAI.sp <- read.csv("SAI-by-species.csv")
+SAI.site.S <- read.csv("SAI-by-site-S.csv")
+SAI.site <- read.csv("SAI-by-site.csv")
+SB <- read.csv("Core_Seedbank.csv")
+cover <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files/Core_Community_Data2015.csv")
 abiotic <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files//Basic Abiotic Data.csv")
 burn <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files//Burn Records.csv")
 graze <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files//Grazing Record.csv")
-sbank <- read.csv("Seedbank_counts.csv")
 
 #####
 # SAI correlations 
