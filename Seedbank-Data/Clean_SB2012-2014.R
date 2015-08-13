@@ -13,7 +13,7 @@ library(plyr)
 library(dplyr)
 #Set working directory and load packages and files
 #setwd("~//Documents//UC Davis//02_McLaughlin_80Sites_Organized//Seedbank Data")
-cover <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files/Core_Community_Data2014.csv")
+cover <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files/Core_Community_Data2015.csv")
 sb.2012 <- read.csv("Raw Data/2012/SeedbankMcLaughlin_CLEANdata_20150126.csv") 
 sb.2014 <- read.csv("Raw Data/2014/SeedbankMcLaughlin2014CLEAN.csv") 
 abio <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files/Basic Abiotic Data.csv")
@@ -32,9 +32,6 @@ colnames(sb.2014)<-c("Site","Species_Name","Count")
 levels(sb.2014$Species_Name) <- c(levels(sb.2014$Species_Name), "Unknown grass", "Unknown forb")
 sb.2014[which(sb.2014$Species_Name == "unknown grass"),2] <- "Unknown grass"
 sb.2014[which(sb.2014$Species_Name == "unknown forb"),2] <- "Unknown forb"
-
-#remove abiotic from cover data
-cover <- cover[which(!cover$Species_Name=="Bare"&!cover$Species_Name=="Rock"),]
 
 ####
 # 2. Clean 2012 Seedbank Data
@@ -69,14 +66,14 @@ sb.2012[which(sb.2012$Site==46&sb.2012$Species_Name=="Vulpia sp."),]$Species_Nam
 
 unique(sb.2014$Species_Name[!sb.2014$Species_Name%in%cover$Species_Name]) # 21 species found belowground not found aboveground: Draba verna, Lythrum californicum, bulb, Juncus phaeocephalus, Solanum nigrum, Veronica peregrina, Epilobium ciliatum; note: epilobium ciliatum and juncus phaeo. are perennials  
 
-# remove weeds and perennial species
+# remove weeds
 weeds <- c("Sonchus sp.","Erigeron canadensis")
 sb.2014 <- sb.2014[which(!sb.2014$Species_Name%in%weeds),]
 
 # Remove perennial species "Juncus phaeocephalus","Epilobium ciliatum"  
 sb.2014 <- sb.2014[which(!sb.2014$Species_Name == "Juncus phaeocephalus" | !sb.2014$Species_Name == "Epilobium ciliatum"),]
 
-#remove unknowns?
+#remove unknowns - depends on the analysis, cant calculate SAI but can look at changes in forb v grass abundance
 #NoID14 <- c("Unknown forb", "Unknown grass", "bulb", "grass 8", "grass 73")
 #sb.2014 <- sb.2014[which(!sb.2014$Species_Name%in%NoID14),]
 
