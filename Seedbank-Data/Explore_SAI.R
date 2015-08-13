@@ -48,7 +48,42 @@ length(burn)
 dim(burn)
 burn1999 <- filter(burn, Season_Year == 1999)
   
-  
+sb.by.year.sum <- ddply(sb.by.year, c("Serpentine","Species_Name","Grass.Forb.Shrub","Year"), summarize, Count = sum(Count))
+
+ggplot(sb.by.year.sum, aes(x = Year, y = Count)) + 
+  geom_line(aes(by = Species_Name, col = Serpentine)) +
+  facet_wrap(~Grass.Forb.Shrub) +
+  geom_smooth(method = "lm", aes(col = Serpentine))
+
+
+####
+# PLOT SAI VS SLA
+####
+
+# Look at correlation of SLA with SAI
+SLA.SAIplot <- merge(traits[,c("Species_Name","SLAS","SLANS")], SAI[,c("Species_Name","SAI","SAI_RelAb")], by = "Species_Name")
+# SLA values change for serpentine and nonserpentine, so for overall I will look at the average but for many species it might be a good idea to calculate SAI separately (esp if looking at relative abundance on two very different soil types where the species vary so much)
+par(mfrow=c(1,1))
+plot(SLA.SAIplot$SAI ~ SLA.SAIplot$SLAS)
+abline(lm(SLA.SAIplot$SAI ~ SLA.SAIplot$SLAS), col = "red")
+plot(SLA.SAIplot$SAI ~ SLA.SAIplot$SLANS)
+abline(lm(SLA.SAIplot$SAI ~ SLA.SAIplot$SLANS), col = "red")
+SLA.SAIplot$SLA<-rowMeans(SLA.SAIplot[,2:3])
+plot(SLA.SAIplot$SAI ~ SLA.SAIplot$SLA, xlab = "SLA", ylab="SAI")
+abline(lm(SLA.SAIplot$SAI ~ SLA.SAIplot$SLA), col = "red")
+plot(SLA.SAIplot$SAI_RelAb ~ SLA.SAIplot$SLA, xlab = "SLA", ylab="SAI")
+
+plot(SLA.SAIplot$SAI_RelAb ~ SLA.SAIplot$SAI, xlab = "SAI", ylab="SAI_relab")
+plot(SAI$SAI_RelAb ~ SAI$SAI_Index2, xlab = "SAI", ylab="SAI_relab")
+
+
+
+
+# break out by functional groups 
+# differences between freq and abundance index
+# SLA/SAI correlated with abundance over time
+# number of years seen aboveground
+
 #####
 # Shifting Time windows
 ####
