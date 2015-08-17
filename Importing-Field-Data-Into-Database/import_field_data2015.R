@@ -1,7 +1,7 @@
 
                                                         
 # 01. read in this years data - change file location as needed... 
- d2015 = read.delim("Z:\\01_PrimaryDatasets\\02_McLaughlin_80Sites_Organized\\Importing Field Data Into Database\\McL_LateSpring2015.csv",
+ d2015 = read.delim("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Importing-Field-Data-Into-Database/McL_LateSpring2015_QC.csv",
  sep = ',', header = T)
  head(d2015)
  
@@ -23,11 +23,11 @@ d2015d = d2015c[!is.na(d2015c$a),] #takes out all NA results for a
 d2015d = d2015d[ , c(1:3, 6, 4, 5, 7)] #arrange with quad in front of species and site
 
 # 04. add an accession - check the last row in the database to get the correct row number before this step!
-acc <- 79994:(79993+nrow(d2015d))   #for 2013 - 78671; for 2014 - 75150
+acc <- 79652:(79651+nrow(d2015d))   #for 2013 - 78671
 d2015d[,1] <- acc
 head(d2015d)
 
 # 05. write new table
 
-write.table(d2015d, 'Z:\\01_PrimaryDatasets\\02_McLaughlin_80Sites_Organized\\Importing Field Data Into Database\\2015 field data for input to db.txt',
+write.table(d2015d, '~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Importing-Field-Data-Into-Database/2015 field data for input to db.txt',
 quote = F, row.name = F, sep = '\t', col.names = F)    #no colnames
