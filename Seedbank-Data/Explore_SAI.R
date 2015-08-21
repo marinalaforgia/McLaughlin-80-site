@@ -1,5 +1,5 @@
 ## Script for exploring correlations with seedbank abundance
-
+rm(list=ls())
 # 1. Load necessary packages and files
 # 2. SAI correlations
     # a. Various traits
@@ -21,18 +21,18 @@
 
 library(plyr)
 library(ggplot2)
-SAI.sp.S <- read.csv("SAI-by-species-S.csv")
-SAI.sp <- read.csv("SAI-by-species.csv")
-SAI.site.S <- read.csv("SAI-by-site-S.csv")
-SAI.site <- read.csv("SAI-by-site.csv")
-SB <- read.csv("Core_Seedbank.csv")
-cover <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files/Core_Community_Data2015.csv")
-abiotic <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files//Basic Abiotic Data.csv")
-burn <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files//Burn Records.csv")
-graze <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Data-Storage-Files//Grazing Record.csv")
-trait <- read.csv("~//Documents//UC-Davis//02_McLaughlin_80Sites_Organized//Modified_CombinedFiles/McL_80SitesSpeciesTraits_012615.csv")
+SAI.sp.S <- read.csv("Seedbank-Data/SAI-by-species-S.csv")
+SAI.sp <- read.csv("Seedbank-Data/SAI-by-species.csv")
+SAI.site.S <- read.csv("Seedbank-Data/SAI-by-site-S.csv")
+SAI.site <- read.csv("Seedbank-Data/SAI-by-site.csv")
+SB <- read.csv("Seedbank-Data/Core_Seedbank.csv")
+cover <- read.csv("Data-Storage-Files/Core_Community_Data2015.csv")
+abiotic <- read.csv("Data-Storage-Files/Basic Abiotic Data.csv")
+burn <- read.csv("Data-Storage-Files/Burn Records.csv")
+graze <- read.csv("Data-Storage-Files/Grazing Record.csv")
+trait <- read.csv("Modified_CombinedFiles/McL_80SitesSpeciesTraits_012615.csv")
 trait$PerNS <- as.numeric(trait$PerNS)
-clim <- read.csv()
+clim <- read.csv("/Users/Marina/Documents/UC-Davis/Research/Phenology/Final Data/climate.csv")
 
 ####
 # 2. Alter Pairs plot to look at correlations among variables
@@ -73,7 +73,7 @@ panel.lmline = function (x, y, col = par("col"), bg = NA, pch = par("pch"),
   trait <- trait[,c(1:11,15)] 
   t.trait <- reshape(trait, varying = list(c(2,7),c(3,8),c(4,9),c(5,10),c(6,11)), v.names = c("Height","SLA","LWC","CN","PerN"), timevar = "Serpentine", times = c("S","N"), idvar = c("Species_Name","Native.Exotic"), direction = "long")
   SAI.trait.S <- merge(SAI.sp.S, t.trait, by = c("Species_Name", "Serpentine"))
-  SAI.trait.S <- na.omit(SAI.trait)
+  SAI.trait.S <- na.omit(SAI.trait.S)
   
   # Pairs plots
   pairs(SAI.trait.S[SAI.trait.S$Serpentine == "N",c(3:11)],lower.panel=panel.lmline, 
@@ -98,16 +98,26 @@ panel.lmline = function (x, y, col = par("col"), bg = NA, pch = par("pch"),
 # (c) grazed and ungrazed
 # (d) serpentine and nonserpentine
   ggplot(SAI.site.S, aes(x = SAI)) +
-    geom_density(aes(col = Serpentine))
+    facet_wrap(~Serpentine) +
+    geom_density(aes(col = Grass.Forb))
+  
+  ggplot(SAI.site.S, aes(x = SAI, col = Grass.Forb)) +
+    geom_density()
   
   SAI.site.S <- na.omit(SAI.site.S)
- SAI.site.avg <- ddply(SAI.site.S, c("site", "Year", "Serpentine"), summarize, SAI = mean(SAI), SAI = mean(SAI), SAI_Index1 = mean(SAI_Index1), SAI_Index2 = mean(SAI_Index2), SAI_RelAb = mean(SAI_RelAb))
+  SAI.site.avg <- ddply(SAI.site.S, c("site", "Year", "Serpentine"), summarize, SAI = mean(SAI), SAI = mean(SAI), SAI_Index1 = mean(SAI_Index1), SAI_Index2 = mean(SAI_Index2), SAI_RelAb = mean(SAI_RelAb))
  
-  ggplot(SAI.site.S, aes(x = Year, y = Count, by = Species_Name, col = Serpentine)) +
-    geom_line()
-  ggplot(SAI.site.avg, aes(x = Year, y = SAI, by = site, col = Serpentine)) + geom_line()
+  ggplot(SAI.site.S, aes(x = Year, y = Count, col = Serpentine)) +
+    geom_line(aes(by = Species_Name, col = Serpentine)) +
+    facet_wrap(~Grass.Forb) +
+    geom_smooth(method = "lm", aes(col = Serpentine)) +
+    ggtitle("Count by Site")  
   
-# (e) Dry and wet years
+  ggplot(SAI.site.avg, aes(x = Year, y = SAI)) +
+    geom_smooth(method = "lm", aes(col = Serpentine, by = site)) +
+    ggtitle("SAI Between Years by Site")  
+
+  # (e) Dry and wet years
 # (f) grass and forbs
 # (g) year to year variation in frequency
   
@@ -115,11 +125,13 @@ panel.lmline = function (x, y, col = par("col"), bg = NA, pch = par("pch"),
 # Seeds per plot
 ####
 sb.site.sum <- ddply(SAI.site.S, c("Serpentine","Species_Name","Grass.Forb","Year"), summarize, Count = sum(Count))
-  
+
+
 ggplot(sb.site.sum, aes(x = Year, y = Count)) + 
-  geom_line(aes(by = Species_Name, col = Serpentine)) +
+ # geom_line(aes(by = Species_Name, col = Serpentine)) +
   facet_wrap(~Grass.Forb) +
-  geom_smooth(method = "lm", aes(col = Serpentine))
+  geom_smooth(method = "lm", aes(col = Serpentine)) +
+  ggtitle("Overall Species Counts")
 
 
 #####
