@@ -21,16 +21,16 @@ rm(list=ls())
 
 library(plyr)
 library(ggplot2)
-SAI.sp.S <- read.csv("Seedbank-Data/SAI-by-species-S.csv")
-SAI.sp <- read.csv("Seedbank-Data/SAI-by-species.csv")
-SAI.site.S <- read.csv("Seedbank-Data/SAI-by-site-S.csv")
-SAI.site <- read.csv("Seedbank-Data/SAI-by-site.csv")
-SB <- read.csv("Seedbank-Data/Core_Seedbank.csv")
-cover <- read.csv("Data-Storage-Files/Core_Community_Data2015.csv")
-abiotic <- read.csv("Data-Storage-Files/Basic Abiotic Data.csv")
-burn <- read.csv("Data-Storage-Files/Burn Records.csv")
-graze <- read.csv("Data-Storage-Files/Grazing Record.csv")
-trait <- read.csv("Modified_CombinedFiles/McL_80SitesSpeciesTraits_012615.csv")
+SAI.sp.S <- read.csv("SAI-by-species-S.csv")
+SAI.sp <- read.csv("SAI-by-species.csv")
+SAI.site.S <- read.csv("SAI-by-site-S.csv")
+SAI.site <- read.csv("SAI-by-site.csv")
+SB <- read.csv("Core_Seedbank.csv")
+cover <- read.csv("/Users/Marina/Documents/UC-Davis/02_McLaughlin_80Sites_Organized/Data-Storage-Files/Core_Community_Data2015.csv")
+abiotic <- read.csv("/Users/Marina/Documents/UC-Davis/02_McLaughlin_80Sites_Organized/Data-Storage-Files/Basic Abiotic Data.csv")
+burn <- read.csv("/Users/Marina/Documents/UC-Davis/02_McLaughlin_80Sites_Organized/Data-Storage-Files/Burn Records.csv")
+graze <- read.csv("/Users/Marina/Documents/UC-Davis/02_McLaughlin_80Sites_Organized/Data-Storage-Files/Grazing Record.csv")
+trait <- read.csv("/Users/Marina/Documents/UC-Davis/02_McLaughlin_80Sites_Organized/Modified_CombinedFiles/McL_80SitesSpeciesTraits_012615.csv")
 trait$PerNS <- as.numeric(trait$PerNS)
 clim <- read.csv("/Users/Marina/Documents/UC-Davis/Research/Phenology/Final Data/climate.csv")
 
@@ -70,8 +70,8 @@ panel.lmline = function (x, y, col = par("col"), bg = NA, pch = par("pch"),
 
 # (a) Correlate SAI with traits
   # Treating serp/nonserp separately for traits is the same as averaging across soil types either for traits/SAI or both
-  trait <- trait[,c(1:11,15)] 
-  t.trait <- reshape(trait, varying = list(c(2,7),c(3,8),c(4,9),c(5,10),c(6,11)), v.names = c("Height","SLA","LWC","CN","PerN"), timevar = "Serpentine", times = c("S","N"), idvar = c("Species_Name","Native.Exotic"), direction = "long")
+  trait <- trait[,c(1:11,15,16)] 
+  t.trait <- reshape(trait, varying = list(c(2,7),c(3,8),c(4,9),c(5,10),c(6,11)), v.names = c("Height","SLA","LWC","CN","PerN"), timevar = "Serpentine", times = c("S","N"), idvar = c("Species_Name","Native.Exotic", "Grass.Forb.Shrub"), direction = "long")
   SAI.trait.S <- merge(SAI.sp.S, t.trait, by = c("Species_Name", "Serpentine"))
   SAI.trait.S <- na.omit(SAI.trait.S)
   
@@ -83,13 +83,20 @@ panel.lmline = function (x, y, col = par("col"), bg = NA, pch = par("pch"),
         upper.panel=panel.cor,main="Serpentine")
  
   #averaging traits across soil types
-  #t.trait <- na.omit(t.trait)
-  #trait.avg <- ddply(t.trait, "Species_Name", summarize, Height = mean(Height), SLA = mean(SLA), LWC = mean(LWC), CN = mean(CN), PerN = mean(PerN))
-  #SAI.trait <- merge(SAI.sp, trait.avg, by = "Species_Name")
-  #SAI.trait <- na.omit(SAI.trait)
+  t.trait <- na.omit(t.trait)
+  trait.avg <- ddply(t.trait, "Species_Name", summarize, Height = mean(Height), SLA = mean(SLA), LWC = mean(LWC), CN = mean(CN), PerN = mean(PerN))
+  SAI.trait <- merge(SAI.sp, trait.avg, by = "Species_Name")
+  SAI.trait <- na.omit(SAI.trait)
   
-  #pairs(SAI.trait[,c(2:10)],lower.panel=panel.lmline, upper.panel=panel.cor)
+  pairs(SAI.trait[,c(2:10)],lower.panel=panel.lmline, upper.panel=panel.cor)
   
+  #pulling out traits by forbs and grasses
+  t.trait <- na.omit(t.trait)
+  trait.avg <- ddply(t.trait, c("Species_Name","Grass.Forb.Shrub"), summarize, Height = mean(Height), SLA = mean(SLA), LWC = mean(LWC), CN = mean(CN), PerN = mean(PerN))
+  SAI.trait <- merge(SAI.sp, trait.avg, by = "Species_Name")
+  SAI.trait <- na.omit(SAI.trait)
+  
+  pairs(SAI.trait[SAI.trait$Grass.Forb.Shrub == "Forb",c(2:10)],lower.panel=panel.lmline, upper.panel=panel.cor)
 # (b) Burned in 1999 and burned in 2000
   head(burn)
   burn1999 <- filter(burn, Season_Year == 1999)
@@ -128,7 +135,7 @@ sb.site.sum <- ddply(SAI.site.S, c("Serpentine","Species_Name","Grass.Forb","Yea
 
 
 ggplot(sb.site.sum, aes(x = Year, y = Count)) + 
- # geom_line(aes(by = Species_Name, col = Serpentine)) +
+  geom_line(aes(by = Species_Name, col = Serpentine)) +
   facet_wrap(~Grass.Forb) +
   geom_smooth(method = "lm", aes(col = Serpentine)) +
   ggtitle("Overall Species Counts")
@@ -137,7 +144,7 @@ ggplot(sb.site.sum, aes(x = Year, y = Count)) +
 #####
 # Shifting Time windows
 ####
-
+ # seedbank abundance of forbs ~ 2012 cover
 ####
 # Fun with bayes
 ####
