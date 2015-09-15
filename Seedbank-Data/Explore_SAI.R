@@ -96,8 +96,11 @@ panel.lmline = function (x, y, col = par("col"), bg = NA, pch = par("pch"),
   SAI.trait <- merge(SAI.sp, trait.avg, by = "Species_Name")
   SAI.trait <- na.omit(SAI.trait)
   
-  pairs(SAI.trait[SAI.trait$Grass.Forb.Shrub == "Forb",c(2:10)],lower.panel=panel.lmline, upper.panel=panel.cor)
-# (b) Burned in 1999 and burned in 2000
+  pairs(SAI.trait[SAI.trait$Grass.Forb.Shrub == "Forb",c(2:5,7:10)],lower.panel=panel.lmline, upper.panel=panel.cor, main = "Forbs")
+  
+  pairs(SAI.trait[SAI.trait$Grass.Forb.Shrub == "Grass",c(2:5,7:10)],lower.panel=panel.lmline, upper.panel=panel.cor, main = "Grasses")
+
+  # (b) Burned in 1999 and burned in 2000
   head(burn)
   burn1999 <- filter(burn, Season_Year == 1999)
   
